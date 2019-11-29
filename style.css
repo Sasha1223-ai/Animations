@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.transition{
+  transition:padding 0.3s easy-in-out;
+  transition: padding 0.5s linear;
+
+
+}
+h1{
+
+}
+
+
+
+.button{
+  width: 200px;
+  background-color: #FF1493;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  color:white;
+}
+.button:hover{
+  padding: 30px;
+  background-color: red;
+}
